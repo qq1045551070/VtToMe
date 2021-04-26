@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DriverEntry">
+      <UniqueIdentifier>{65f7ab55-5c99-403d-8504-c51fc586b27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VtBase">
+      <UniqueIdentifier>{16066e2c-b089-4e32-b7fc-c573a5b99f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VtBase\Vt安装类">
+      <UniqueIdentifier>{96cb56c4-8c75-4643-918b-890bbca2c3f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VtBase\Vt基本框架类">
+      <UniqueIdentifier>{f11e4ef3-4fcb-42b5-a3ec-2e3a26850b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VtBase\Vt汇编类">
+      <UniqueIdentifier>{13896d20-2ef2-430f-8f68-d806317b0e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VtBase\Vt头文件类">
+      <UniqueIdentifier>{d1eccc10-3bfe-469f-bb91-f07c069fd66e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VtBase\VtEpt类">
+      <UniqueIdentifier>{0bf3f556-f9ca-4521-a4ad-9605253d856b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VtBase\VtExit处理类">
+      <UniqueIdentifier>{09ec8053-6e81-4475-92e4-39952c6d6340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VtBase\VtEpt类\VtEptHook类">
+      <UniqueIdentifier>{a9d04beb-6e7c-4bc3-94e0-16379bc35f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VtBase\VtEpt类\汇编引擎">
+      <UniqueIdentifier>{77460e6d-12ee-497b-b683-399e18e22ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VtBase\VtEvent类">
+      <UniqueIdentifier>{88d9447a-d9a3-4465-a6ca-0887e1ed5a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VtBase\KernelFunc">
+      <UniqueIdentifier>{a452205c-20cf-4ada-826a-bc58f290d401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VtBase\Tools">
+      <UniqueIdentifier>{a2b774ac-173f-4c96-a05a-db1153bd72db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VtBase\VtHookVector类">
+      <UniqueIdentifier>{48f0639b-0432-4573-bd81-326e6e627944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VtBase\VtSsdtHook类">
+      <UniqueIdentifier>{a72f4e8c-f09c-45f8-926d-6e5bc63ec9f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VtBase\VtEpt类\VtEpt断点">
+      <UniqueIdentifier>{0a17593d-df8d-4f2d-99c8-5e8868bc4918}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DriverEntry.cpp">
+      <Filter>DriverEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="VtInstall.cpp">
+      <Filter>VtBase\Vt安装类</Filter>
+    </ClCompile>
+    <ClCompile Include="VtBase.cpp">
+      <Filter>VtBase\Vt基本框架类</Filter>
+    </ClCompile>
+    <ClCompile Include="VtHeader.cpp">
+      <Filter>VtBase\Vt头文件类</Filter>
+    </ClCompile>
+    <ClCompile Include="VtVmExit.cpp">
+      <Filter>VtBase\VtExit处理类</Filter>
+    </ClCompile>
+    <ClCompile Include="VtEpt.cpp">
+      <Filter>VtBase\VtEpt类</Filter>
+    </ClCompile>
+    <ClCompile Include="VtEptHook.cpp">
+      <Filter>VtBase\VtEpt类\VtEptHook类</Filter>
+    </ClCompile>
+    <ClCompile Include="LDE64x64.cpp">
+      <Filter>VtBase\VtEpt类\汇编引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>VtBase\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="VtEvent.cpp">
+      <Filter>VtBase\VtEvent类</Filter>
+    </ClCompile>
+    <ClCompile Include="VtHookVector.cpp">
+      <Filter>VtBase\VtHookVector类</Filter>
+    </ClCompile>
+    <ClCompile Include="VtSsdtHook.cpp">
+      <Filter>VtBase\VtSsdtHook类</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NeedKernelFunc.h">
+      <Filter>VtBase\KernelFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="VtInstall.h">
+      <Filter>VtBase\Vt安装类</Filter>
+    </ClInclude>
+    <ClInclude Include="VtBase.h">
+      <Filter>VtBase\Vt基本框架类</Filter>
+    </ClInclude>
+    <ClInclude Include="VtAsm.h">
+      <Filter>VtBase\Vt汇编类</Filter>
+    </ClInclude>
+    <ClInclude Include="VtHeader.h">
+      <Filter>VtBase\Vt头文件类</Filter>
+    </ClInclude>
+    <ClInclude Include="VtVmExit.h">
+      <Filter>VtBase\VtExit处理类</Filter>
+    </ClInclude>
+    <ClInclude Include="VtEpt.h">
+      <Filter>VtBase\VtEpt类</Filter>
+    </ClInclude>
+    <ClInclude Include="VtEptHook.h">
+      <Filter>VtBase\VtEpt类\VtEptHook类</Filter>
+    </ClInclude>
+    <ClInclude Include="LDE64x64.h">
+      <Filter>VtBase\VtEpt类\汇编引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>VtBase\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="VtEvent.h">
+      <Filter>VtBase\VtEvent类</Filter>
+    </ClInclude>
+    <ClInclude Include="VtHookVector.h">
+      <Filter>VtBase\VtHookVector类</Filter>
+    </ClInclude>
+    <ClInclude Include="VtSsdtHook.h">
+      <Filter>VtBase\VtSsdtHook类</Filter>
+    </ClInclude>
+    <ClInclude Include="vt_win7_kernel_code_asm.h">
+      <Filter>VtBase\Vt汇编类</Filter>
+    </ClInclude>
+    <ClInclude Include="vt_win10_kernel_code_asm.h">
+      <Filter>VtBase\Vt汇编类</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="VtAsm.asm">
+      <Filter>VtBase\Vt汇编类</Filter>
+    </MASM>
+    <MASM Include="vt_win7_kernel_code_asm.asm">
+      <Filter>VtBase\Vt汇编类</Filter>
+    </MASM>
+    <MASM Include="vt_win10_kernel_code_asm.asm">
+      <Filter>VtBase\Vt汇编类</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

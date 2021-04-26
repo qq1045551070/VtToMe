@@ -1,0 +1,20 @@
+﻿  Building 'VtToMe' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Assembling VtAsm.asm...
+  DriverEntry.cpp
+  LDE64x64.cpp
+  Tools.cpp
+  VtBase.cpp
+  VtEpt.cpp
+  VtEptHook.cpp
+  VtEvent.cpp
+  VtHeader.cpp
+  VtInstall.cpp
+  VtVmExit.cpp
+  正在生成代码...
+  VtToMe.vcxproj -> G:\驱动开发代码\VtToMe\x64\Release\VtToMe.sys
+  Done Adding Additional Store
+  Successfully signed: G:\\VtToMe\x64\Release\VtToMe.sys
+  
+  Driver is 'Universal'.
+  Inf2Cat task was skipped as there were no inf files to process
+  
